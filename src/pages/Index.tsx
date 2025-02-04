@@ -26,7 +26,7 @@ const slides = [
   },
   {
     paragraph: "Tenk på Kunnskapsagenten som en ergonomisk sykkel for hjernen. Den hjelper ekspertene i kommunen å jobbe smartere, ikke hardere.",
-    image: "images/brain_bicycle3.png"
+    image: "brain_bicycle3.png"
   },
   {
     paragraph: "Kunnskapsagenten er ikke:",
@@ -46,7 +46,7 @@ const slides = [
   },
   {
     heading: "Grafisk Grensesnitt",
-    image: "images/browser_interface2.png"
+    image: "browser_interface2.png"
   },
   {
     paragraph: "For avanserte brukere finnes det spesialkommandoer som gir mer kontroll, slik som",

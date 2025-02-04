@@ -40,7 +40,9 @@ const SlideContent = ({ heading, question, paragraph, listItems, image, buttons 
 
       {image && (
         <div className="flex justify-center my-8">
-          <img src="images/slide-illustration.png" alt="Slide illustration" className="max-w-full h-auto rounded-lg shadow-lg" />
+           <img
+             src={`images/${image}`}
+             alt="Slide illustration" className="max-w-full h-auto rounded-lg shadow-lg" />
         </div>
       )}
 

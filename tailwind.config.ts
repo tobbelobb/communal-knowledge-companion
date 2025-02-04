@@ -26,6 +26,11 @@ export default {
           accent: "#3182ce",     // Bright blue
           light: "#f7fafc",      // Very light gray
         },
+        border: "hsl(var(--border))",    // Add this line
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
       },
       animation: {
         'slide-in': 'slideIn 0.5s ease-out',

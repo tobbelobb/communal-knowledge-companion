@@ -88,7 +88,7 @@ const Index = () => {
           <SlideContent {...slide} />
         </Slide>
       ))}
-      
+
       <Navigation
         currentSlide={currentSlide}
         totalSlides={slides.length}

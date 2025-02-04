@@ -17,19 +17,19 @@ const SlideContent = ({ heading, question, paragraph, listItems, image, buttons 
           {heading}
         </h2>
       )}
-      
+
       {question && (
         <div className="text-2xl font-semibold text-presentation-primary mb-6 italic">
           {question}
         </div>
       )}
-      
+
       {paragraph && (
         <p className="text-xl text-presentation-secondary whitespace-pre-wrap">
           {paragraph}
         </p>
       )}
-      
+
       {listItems && (
         <ul className="list-disc list-inside space-y-3 text-lg text-presentation-secondary">
           {listItems.map((item, index) => (
@@ -37,19 +37,19 @@ const SlideContent = ({ heading, question, paragraph, listItems, image, buttons 
           ))}
         </ul>
       )}
-      
+
       {image && (
         <div className="flex justify-center my-8">
-          <img src={image} alt="Slide illustration" className="max-w-full h-auto rounded-lg shadow-lg" />
+          <img src="images/slide-illustration.png" alt="Slide illustration" className="max-w-full h-auto rounded-lg shadow-lg" />
         </div>
       )}
-      
+
       {buttons && (
         <div className="flex flex-wrap gap-4 justify-center mt-8">
           {buttons.map((button, index) => (
             <button
               key={index}
-              className="px-6 py-2 bg-presentation-accent text-white rounded-lg 
+              className="px-6 py-2 bg-presentation-accent text-white rounded-lg
                        hover:bg-presentation-primary transition-colors duration-200"
             >
               {button}

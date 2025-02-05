@@ -9,7 +9,12 @@ const slides = [
   },
   {
     heading: "Kommunal Kunnskapsagent - En mulig løsning",
-    paragraph: "Se for deg Kommunal Kunnskapsagent som en AI-assistent for saksbehandlere. Det er som å ha en ekstra kollega som kan hjelpe til med å:",
+    paragraph: (
+      <>
+        Se for deg Kommunal Kunnskapsagent som en <b>AI-assistent for saksbehandlere</b>.
+        Det er som å ha en ekstra kollega som kan hjelpe til med å:
+      </>
+    ),
     listItems: [
       "Automatisere rutineoppgaver, som f.eks. å fylle ut standardiserte skjemaer eller generere utkast til svar.",
       "Hente frem relevant informasjon raskt, som lovverk, forskrifter og tidligere sakspapirer.",

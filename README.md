@@ -1,6 +1,7 @@
 # Communal Knowledge Companion
 
-A basic slide show. Current contents describe a business case in Norwegian.
+A basic slide show. Current contents describe a business case in Norwegian. Deployed at
+[tobbelobb.github.io/communal-knowledge-companion](https://tobbelobb.github.io/communal-knowledge-companion/).
 
 ## How to Use
 
@@ -51,12 +52,19 @@ npm run deploy
  - Good component structure
 
 ## Next Steps (Chores)
- - Priority High/Medium:
-    - Error handling: Implement Error Boundaries and try...catch for data fetching.
-    - Accessibility: Test keyboard navigasjon, browser compatibility and ARIA-attributes.
- - Priority Medium:
-    - Testing: Consider unit tests.
- - Priority Low/Medium:
-    - Code cleanup: Remove unused code/files.
-    - Toast Customization: Consider adding more customizability for toasts (variants, positions, icons).
-    - SlideContent and Index.tsx data structure: Consider restructuring for flexibility (optional).
+
+### Priority High/Medium:
+ - Error handling: Implement Error Boundaries and try...catch for data fetching.
+ - Accessibility: Test keyboard navigasjon, browser compatibility and ARIA-attributes.
+
+### Priority Medium:
+ - Testing: Consider unit tests.
+
+### Priority Low/Medium:
+ - Code cleanup: Remove unused code/files.
+ - Toast Customization: Consider adding more customizability for toasts (variants, positions, icons).
+ - SlideContent and Index.tsx data structure: Consider restructuring for flexibility (optional).
+
+## Thanks To
+
+lovable.dev for sketchig up the first version.

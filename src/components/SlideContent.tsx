@@ -7,9 +7,11 @@ interface SlideContentProps {
   listItems?: string[];
   image?: string;
   buttons?: string[];
+  paragraph2?: string;
+  listItems2?: string[];
 }
 
-const SlideContent = ({ heading, question, paragraph, listItems, image, buttons }: SlideContentProps) => {
+const SlideContent = ({ heading, question, paragraph, listItems, image, buttons, paragraph2, listItems2 }: SlideContentProps) => {
   return (
     <div className="space-y-6">
       {heading && (
@@ -37,6 +39,21 @@ const SlideContent = ({ heading, question, paragraph, listItems, image, buttons 
           ))}
         </ul>
       )}
+
+      {paragraph2 && (
+        <p className="text-xl text-presentation-secondary whitespace-pre-wrap">
+          {paragraph2}
+        </p>
+      )}
+
+      {listItems2 && (
+        <ul className="list-disc list-inside space-y-3 text-lg text-presentation-secondary">
+          {listItems2.map((item, index) => (
+            <li key={index} className="ml-4">{item}</li>
+          ))}
+        </ul>
+      )}
+
 
       {image && (
         <div className="flex justify-center my-8">

@@ -11,38 +11,38 @@ const slides = [
     heading: "Kommunal Kunnskapsagent - En mulig løsning",
     paragraph: (
       <>
-        Se for deg Kommunal Kunnskapsagent som en <b>AI-assistent for saksbehandlere</b>.
-        Det er som å ha en ekstra kollega som kan hjelpe til med å:
+        Se for deg Kommunal Kunnskapsagent som en <strong>AI-assistent for saksbehandlere</strong>.
+        Det er som å ha en <strong>ekstra</strong> kollega som kan hjelpe til med å:
       </>
     ),
     listItems: [
-      "Automatisere rutineoppgaver, som f.eks. å fylle ut standardiserte skjemaer eller generere utkast til svar.",
-      "Hente frem relevant informasjon raskt, som lovverk, forskrifter og tidligere sakspapirer.",
-      "Effektivisere saksbehandlingen, ved å foreslå neste steg og identifisere potensielle flaskehalser."
+      <><strong>Automatisere rutineoppgaver</strong>, som f.eks. å fylle ut standardiserte skjemaer eller generere utkast til svar.</>,
+      <><strong>Hente frem relevant informasjon raskt</strong>, som lovverk, forskrifter og tidligere sakspapirer.</>,
+      <><strong>Effektivisere saksbehandlingen</strong>, ved å foreslå neste steg og identifisere potensielle flaskehalser.</>
     ]
   },
   {
-    paragraph: "Med Kommunal Kunnskapsagent kan kommunens ansatte jobbe sammen med AI, direkte i deres eksisterende systemer, for å:",
+    paragraph: <>Med Kommunal Kunnskapsagent kan kommunens ansatte jobbe <strong>sammen med AI</strong>, direkte i deres eksisterende systemer, for å:</>,
     listItems: [
-      "Spare tid og ressurser i administrative prosesser.",
-      "Redusere byråkrati og øke effektiviteten.",
-      "Forbedre tjenestene til innbyggerne gjennom raskere og mer konsistent saksbehandling."
+      <><strong>Spare tid og ressurser</strong> i administrative prosesser.</>,
+      <><strong>Redusere byråkrati</strong> og øke effektiviteten.</>,
+      <><strong>Forbedre tjenestene til innbyggerne</strong> gjennom raskere og mer konsistent saksbehandling.</>
     ]
   },
   {
-    paragraph: "Tenk på Kunnskapsagenten som en ergonomisk sykkel for hjernen. Den hjelper ekspertene i kommunen å jobbe smartere, ikke hardere.",
+    paragraph: <>Tenk på Kunnskapsagenten som en <strong>ergonomisk sykkel for hjernen</strong>. Den hjelper ekspertene i kommunen å jobbe smartere, ikke hardere.</>,
     image: "brain_bicycle3.png"
   },
   {
-    paragraph: "Kunnskapsagenten er ikke:",
+    paragraph: <><strong>Kunnskapsagenten er:</strong></>,
     listItems: [
-      "Særlig smart eller pålitelig uten brukerens hjelp.",
-      "Ansvarlig for beslutninger eller endringer den foreslår."
-    ],
-    paragraph2: "Kunnskapsagenten er:",
-    listItems2: [
       "Et godt hjelpemiddel for å raskt bygge forståelse.",
       "Et godt hjelpemiddel for å automatisere oppgaver som brukeren allerede forstår."
+    ],
+    paragraph2: <><strong>Kunnskapsagenten er ikke:</strong></>,
+    listItems2: [
+      "Særlig smart eller pålitelig uten brukerens hjelp.",
+      "Ansvarlig for beslutninger eller endringer den foreslår."
     ]
   },
   {
